@@ -1,0 +1,441 @@
+﻿<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Голосование</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" type="text/css" media="all" />
+</head> 
+
+<body>
+  <div id="main_content">
+    <header>
+      <div class="container">
+          <div class="hedaer_top_line">
+              <div class="header_logo">
+                  <img src="img/logo.svg" alt=""/>
+              </div>
+              <div class="header_search">
+                  <form action=""><input type="text" placeholder="Поиск"/><button class="search_button"><i class="fas fa-search"></i></button></form>
+              </div>
+              <div class="header_phone"><a href="tel:+375447271937">+375 (44) 727-19-37</a><br/> <span class="work_time">Работаем ежедневно с 10 до 19</span></div>
+              <div class="header_card"><span>Корзина</span><br/> <span class="cart_price"><span>12</span> BYN</span></div>
+              <div class="header_login"><a href="#" class="key">Войти</a><br/> <a href="#"> Регистрация</a></div>
+          </div>
+      </div>
+          <div class="main_menu_box">
+              <div class="container">
+                  <ul class="menu_wrapper">
+                      <div class="close">
+                          <svg class="ham hamRotate ham1 active" viewBox="0 0 100 100" width="50">
+                          <path
+                                  class="line top"
+                                  d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                          <path
+                                  class="line middle"
+                                  d="m 30,50 h 40" />
+                          <path
+                                  class="line bottom"
+                                  d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                          </svg>
+                      </div>
+                      <li class="menu_element parent"><a href="#">Мальчики</a>
+                      <div class="dropdown_menu">
+                          <div class="container">
+                              <div class="age">
+                                  <span class="title">Возраст</span>
+                                  <ul>
+                                      <li><a href="#">до 3 лет ( рост 56-98)</a></li>
+                                      <li><a href="#">от 3 до 7 лет (рост 104-122)</a></li>
+                                      <li><a href="#">до 16 лет ( рост 128-176)</a></li>
+                                  </ul>
+                              </div>
+                              <div class="category">
+                                  <span class="title">Категории</span>
+                                  <ul>
+                                      <li><a href="#">Все товары</a></li>
+                                      <li><a href="#">Аксессуары</a></li>
+                                      <li><a href="#">Блузки</a></li>
+                                      <li><a href="#">Боди</a></li>
+                                      <li><a href="#">Брюки, джинсы</a></li>
+                                      <li><a href="#">Верхняя одежда</a></li>
+                                      <li><a href="#">Водолазки</a></li>
+                                      <li><a href="#">Джемперы, кардиганы</a></li>
+                                      <li><a href="#">Комбинезоны, полукомбинезоны</a></li>
+                                      <li><a href="#">Комплекты одежды</a></li>
+                                      <li><a href="#">Нижнее белье, пижамы</a></li>
+                                      <li><a href="#">Платья</a></li>
+                                      <li><a href="#">Толстовки</a></li>
+                                      <li><a href="#">Футболки, майки</a></li>
+                                      <li><a href="#">Чулочно-носочные изделия</a></li>
+                                      <li><a href="#">Шапки, шарфы</a></li>
+                                      <li><a href="#">Шорты</a></li>
+                                      <li><a href="#">Юбки</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      </li>
+                      <li class="menu_element parent"><a href="#">Девочки</a>
+                      <div class="dropdown_menu">
+                          <div class="container">
+                              <div class="age">
+                                  <span class="title">Возраст</span>
+                                  <ul>
+                                      <li><a href="#">до 3 лет ( рост 56-98)</a></li>
+                                      <li><a href="#">от 3 до 7 лет (рост 104-122)</a></li>
+                                      <li><a href="#">до 16 лет ( рост 128-176)</a></li>
+                                  </ul>
+                              </div>
+                              <div class="category">
+                                  <span class="title">Категории</span>
+                                  <ul>
+                                      <li><a href="#">Все товары</a></li>
+                                      <li><a href="#">Аксессуары</a></li>
+                                      <li><a href="#">Блузки</a></li>
+                                      <li><a href="#">Боди</a></li>
+                                      <li><a href="#">Брюки, джинсы</a></li>
+                                      <li><a href="#">Верхняя одежда</a></li>
+                                      <li><a href="#">Водолазки</a></li>
+                                      <li><a href="#">Джемперы, кардиганы</a></li>
+                                      <li><a href="#">Комбинезоны, полукомбинезоны</a></li>
+                                      <li><a href="#">Комплекты одежды</a></li>
+                                      <li><a href="#">Нижнее белье, пижамы</a></li>
+                                      <li><a href="#">Платья</a></li>
+                                      <li><a href="#">Толстовки</a></li>
+                                      <li><a href="#">Футболки, майки</a></li>
+                                      <li><a href="#">Чулочно-носочные изделия</a></li>
+                                      <li><a href="#">Шапки, шарфы</a></li>
+                                      <li><a href="#">Шорты</a></li>
+                                      <li><a href="#">Юбки</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      </li>
+                      <li class="menu_element parent"><a href="#">Новорожденные</a>
+                      <div class="dropdown_menu">
+                          <div class="container">
+                              <div class="age">
+                                  <span class="title">Возраст</span>
+                                  <ul>
+                                      <li><a href="#">до 3 лет ( рост 56-98)</a></li>
+                                      <li><a href="#">от 3 до 7 лет (рост 104-122)</a></li>
+                                      <li><a href="#">до 16 лет ( рост 128-176)</a></li>
+                                  </ul>
+                              </div>
+                              <div class="category">
+                                  <span class="title">Категории</span>
+                                  <ul>
+                                      
+                                      <li><a href="#">Все товары</a></li>
+                                      <li><a href="#">Аксессуары</a></li>
+                                      <li><a href="#">Блузки</a></li>
+                                      <li><a href="#">Боди</a></li>
+                                      <li><a href="#">Брюки, джинсы</a></li>
+                                      <li><a href="#">Верхняя одежда</a></li>
+                                      <li><a href="#">Водолазки</a></li>
+                                      <li><a href="#">Джемперы, кардиганы</a></li>
+                                      <li><a href="#">Комбинезоны, полукомбинезоны</a></li>
+                                      <li><a href="#">Комплекты одежды</a></li>
+                                      <li><a href="#">Нижнее белье, пижамы</a></li>
+                                      <li><a href="#">Платья</a></li>
+                                      <li><a href="#">Толстовки</a></li>
+                                      <li><a href="#">Футболки, майки</a></li>
+                                      <li><a href="#">Чулочно-носочные изделия</a></li>
+                                      <li><a href="#">Шапки, шарфы</a></li>
+                                      <li><a href="#">Шорты</a></li>
+                                      <li><a href="#">Юбки</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      </li>
+                      <li class="menu_element parent"><a href="#">Обувь</a>
+                      <div class="dropdown_menu">
+                          <div class="container">
+                              <div class="age">
+                                  <span class="title">Возраст</span>
+                                  <ul>
+                                      <li><a href="#">до 3 лет ( рост 56-98)</a></li>
+                                      <li><a href="#">от 3 до 7 лет (рост 104-122)</a></li>
+                                      <li><a href="#">до 16 лет ( рост 128-176)</a></li>
+                                  </ul>
+                              </div>
+                              <div class="category">
+                                  <span class="title">Категории</span>
+                                  <ul>
+                                      <li><a href="#">Все товары</a></li>
+                                      <li><a href="#">Аксессуары</a></li>
+                                      <li><a href="#">Блузки</a></li>
+                                      <li><a href="#">Боди</a></li>
+                                      <li><a href="#">Брюки, джинсы</a></li>
+                                      <li><a href="#">Верхняя одежда</a></li>
+                                      <li><a href="#">Водолазки</a></li>
+                                      <li><a href="#">Джемперы, кардиганы</a></li>
+                                      <li><a href="#">Комбинезоны, полукомбинезоны</a></li>
+                                      <li><a href="#">Комплекты одежды</a></li>
+                                      <li><a href="#">Нижнее белье, пижамы</a></li>
+                                      <li><a href="#">Платья</a></li>
+                                      <li><a href="#">Толстовки</a></li>
+                                      <li><a href="#">Футболки, майки</a></li>
+                                      <li><a href="#">Чулочно-носочные изделия</a></li>
+                                      <li><a href="#">Шапки, шарфы</a></li>
+                                      <li><a href="#">Шорты</a></li>
+                                      <li><a href="#">Юбки</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      </li>
+                      <li class="menu_element active"><a href="#">Доставка и оплата</a></li>
+                      <li class="menu_element"><a href="#">Новости</a></li>
+                      <li class="menu_element"><a href="#">О нас</a></li>
+                      <li class="menu_element"><a href="#">Контакты</a></li>
+                  </ul>
+                  <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="50">
+                  <path
+                          class="line top"
+                          d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                  <path
+                          class="line middle"
+                          d="m 30,50 h 40" />
+                  <path
+                          class="line bottom"
+                          d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                  </svg>
+
+              </div>
+          </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="breadcrumbs_box">
+        <a class="first_main" href="/"><img src="img/icon/home-smile.svg"/></a> 
+        <a class="bredcumb" href="#">Каталог</a>
+        <a class="bredcumb" href="#">Одежда для девочек</a>
+        <a class="bredcumb" href="#">Платья</a>
+        <a class="bredcumb" href="#">Праздничное платье “Принцесса”</a>
+      </div>
+      
+      <div class="card_header_section">
+          <div class="card_slider_section">
+              <div class="vertical_slider_section">
+                  <div class="slider_element"><img src="img/12.png" alt=""/></div>
+                  <div class="slider_element"><img src="img/13.png" alt=""/></div>
+                  <div class="slider_element"><img src="img/14.png" alt=""/></div>
+                  <div class="slider_element"><img src="img/15.png" alt=""/></div>
+                  <div class="slider_element"><img src="img/16.png" alt=""/></div>
+                  <div class="slider_element"><img src="img/16.png" alt=""/></div>
+              </div>
+              <div class="main_slider_section">
+                  <div class="slider_element"><img src="img/13.png" alt=""/></div>
+                  <div class="slider_element"><img src="img/14.png" alt=""/></div>
+                  <div class="slider_element"><img src="img/15.png" alt=""/></div>
+                  <div class="slider_element"><img src="img/16.png" alt=""/></div>
+                  <div class="slider_element"><img src="img/17.png" alt=""/></div>
+                  <div class="slider_element"><img src="img/17.png" alt=""/></div>
+              </div>
+          </div>
+          <div class="card_details_section">
+            <h1>Праздничное платье “Принцесса”</h1>
+            <div class="box"><span class="stock in">В наличии</span> <!-- <span class="stock out">Нет в наличии</span> --></div>
+            <div class="size_box box">
+              <span class="box_title">Выберите размер</span>
+              <label ><input type="radio" name="size" value="62"/><span class="size">62</span></label>
+              <label ><input type="radio" name="size" value="68"/><span class="size">68</span></label>
+              <label ><input type="radio" name="size" value="74"/><span class="size">74</span></label>
+              <label ><input type="radio" name="size" value="80"/><span class="size">80</span></label>
+              <label ><input type="radio" name="size" value="86"/><span class="size">86</span></label>
+            </div>
+            <div class="color_box box">
+              <span class="box_title">Выберите цвет</span>
+              <label ><input type="radio" name="color" value="red"/><span class="color_wrap" /* style="border-color:Сюда цвет;" */><span class="color" /* style="color:Сюда цвет;" */ ></span></span></label>
+              <label ><input type="radio" name="color" value="red"/><span class="color_wrap" /* style="border-color:Сюда цвет;" */><span class="color" /* style="color:Сюда цвет;" */></span></span></label>
+              <label ><input type="radio" name="color" value="red"/><span class="color_wrap" /* style="border-color:Сюда цвет;" */><span class="color" /* style="color:Сюда цвет;" */></span></span></label>
+              <label ><input type="radio" name="color" value="red"/><span class="color_wrap" /* style="border-color:Сюда цвет;" */><span class="color" /* style="color:Сюда цвет;" */></span></span></label>
+              <label ><input type="radio" name="color" value="red"/><span class="color_wrap" /* style="border-color:Сюда цвет;" */><span class="color" /* style="color:Сюда цвет;" */></span></span></label>
+            </div>
+            <div class="feature_box box">
+              <p class="feature"><span>Артикул:</span> 3247824</p>
+              <p class="feature"><span>Сезон:</span> Весна</p>
+              <p class="feature"><span>Состав:</span> Хлопок - 80%, полиэстер - 20%</p>
+            </div>
+            <div class="cart_box box">
+            <span class="add">Добавить в корзину</span>
+            <span class="price">60.50 BYN</span>
+            </div>
+          </div>
+      </div>
+      <div class="description_section">
+        <div class="title">Описание</div>
+        <p>Описание платья, его характеристики, чем занятся детям в холодную пору года, когда не хочется вечно торчать дома? Ну ведь можно записать их на танцы! Вы знали, что помимо одежды, обуви и ещё кое-каких аксессуаров, у нас спрятаны танцевальные балетки.</p>
+        <p>Сейчас занятся детям в холодную пору года, когда не хочется совсем и постоянно торчать дома? А вы знали, что помимо одежды, обуви и аксессуаров, у нас спрятаны танцевальные балетки. Детям чем занятся в холодную пору года, когда нет-нет да и не хочется постоянно торчать дома? Можно записать их, например, на танцы! Помимо одежды, обуви и аксессуаров, у нас спрятаны танцевальные балетки, а также многое другое! Описание платья, его характеристики, чем занятся детям в холодную пору года, когда не хочется вечно торчать дома? Ну ведь можно записать их на танцы! Вы знали, что помимо одежды, обуви и ещё кое-каких аксессуаров, у нас спрятаны танцевальные балетки.</p>
+        <p>Сейчас занятся детям в холодную пору года, когда не хочется совсем и постоянно торчать дома? А вы знали, что помимо одежды, обуви и аксессуаров, у нас спрятаны танцевальные балетки. Детям чем занятся в холодную пору года, когда нет-нет да и не хочется постоянно торчать дома? Можно записать их, например, на танцы! Помимо одежды, обуви и аксессуаров, у нас спрятаны танцевальные балетки, а также многое другое!</p>
+      </div>
+      <div class="slide_section related">
+          <div class="title">
+          Похожие товары
+          </div>
+          <div class="catalog">
+            <div class="card ">
+              <img alt="" src="img/Untitled.png"/>
+              <p class="name">Комбинезон Розовая пантера для детей до года</p><span class="stock in">В наличии</span> <span class="price">60.50 BYN</span> <a class="card_link" href="#"><span>Подробнее</span></a>
+            </div>
+            <div class="card ">
+              <img alt="" src="img/Untitled.png"/>
+              <p class="name">Комбинезон Розовая пантера для детей до года</p><span class="stock out">В наличии</span> <span class="price">60.50 BYN</span> <a class="card_link" href="#"><span>Подробнее</span></a>
+            </div>
+            <div class="card ">
+              <img alt="" src="img/Untitled.png"/>
+              <p class="name">Комбинезон Розовая пантера для детей до года</p><span class="stock in">В наличии</span> <span class="price">60.50 BYN</span> <a class="card_link" href="#"><span>Подробнее</span></a>
+            </div>
+            <div class="card ">
+              <img alt="" src="img/Untitled.png"/>
+              <p class="name">Комбинезон Розовая пантера для детей до года</p><span class="stock in">В наличии</span> <span class="price">60.50 BYN</span> <a class="card_link" href="#"><span>Подробнее</span></a>
+            </div>
+            <div class="card ">
+              <img alt="" src="img/Untitled.png"/>
+              <p class="name">Комбинезон Розовая пантера для детей до года</p><span class="stock in">В наличии</span> <span class="price">60.50 BYN</span> <a class="card_link" href="#"><span>Подробнее</span></a>
+            </div>
+          </div>
+      </div>
+      <div class="review_section">
+          <div class="top">
+              <div class="title">Отзывы</div>
+              <div class="review_button form_button" data-to="review_form_box">Оставить отзыв</div>
+          </div>
+          <div class="main_review_section">
+              <div class="review_wrap">
+                <div class="review_body">
+                    <div class="review_wrap_top_box"><span class="name">Катерина</span><span class="date">28 сентября 2020</span></div>
+                    <div class="star_box">
+                        <span class="full_star"></span>
+                        <span class="full_star"></span>
+                        <span class="full_star"></span>
+                        <span class="full_star"></span>
+                        <span class="without_star"></span>
+                    </div>
+                    <div class="review_text">Очень крутое платье, дочь просто в восторге. В школе все подруги все сразу захотели такое же. По качеству тоже очень понравилось, носим уже второй год и выглядит так же, как и в момент покупки</div>
+                </div>
+              </div>
+              <div class="review_wrap">
+                <div class="review_body">
+                    <div class="review_wrap_top_box"><span class="name">Катерина</span><span class="date">28 сентября 2020</span></div>
+                    <div class="star_box">
+                        <span class="full_star"></span>
+                        <span class="full_star"></span>
+                        <span class="full_star"></span>
+                        <span class="full_star"></span>
+                        <span class="without_star"></span>
+                    </div>
+                    <div class="review_text">Очень крутое платье, дочь просто в восторге. В школе все подруги все сразу захотели такое же. По качеству тоже очень понравилось, носим уже второй год и выглядит так же, как и в момент покупки</div>
+                </div>
+              </div>
+              <div class="review_wrap">
+                <div class="review_body">
+                    <div class="review_wrap_top_box"><span class="name">Катерина</span><span class="date">28 сентября 2020</span></div>
+                    <div class="star_box">
+                        <span class="full_star"></span>
+                        <span class="full_star"></span>
+                        <span class="full_star"></span>
+                        <span class="full_star"></span>
+                        <span class="without_star"></span>
+                    </div>
+                    <div class="review_text">Очень крутое платье, дочь просто в восторге. В школе все подруги все сразу захотели такое же. По качеству тоже очень понравилось, носим уже второй год и выглядит так же, как и в момент покупки</div>
+                </div>
+              </div>
+          </div>
+          <div class="pagination_box">
+          <a href="#" class="pagination"><i class="fas fa-caret-left"></i></a>
+          <a href="#" class="pagination active">1</a>
+          <a href="#" class="pagination">2</a>
+          <a href="#" class="pagination">3</a>
+          <a href="#" class="pagination">4</a>
+          <a href="#" class="pagination">...</a>
+          <a href="#" class="pagination">19</a>
+          <a href="#" class="pagination"><i class="fas fa-caret-right"></i></a>
+      </div>
+      </div>
+      
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+        <div class="footer_box">
+            <div class="footer_contact">
+                <a href="tel:375447271937">+375 (44) 727-19-37</a><br/>
+                <span>Работаем ежедневно с 10 до 19</span>
+            </div>
+            <div class="footer_menu">
+                <div class="footer_menu_element">
+                    <a href="">Мальчики</a>
+                </div>
+                <div class="footer_menu_element">
+                    <a href="">Новорожденные</a>
+                </div>
+                <div class="footer_menu_element">
+                    <a href="">Доставка и оплата</a>
+                </div>
+                <div class="footer_menu_element">
+                    <a href="">О нас</a>
+                </div>
+                <div class="footer_menu_element">
+                    <a href="">Девочки</a>
+                </div>
+                <div class="footer_menu_element">
+                    <a href="">Обувь</a>
+                </div>
+                <div class="footer_menu_element">
+                    <a href="">Новости</a>
+                </div>
+                <div class="footer_menu_element">
+                    <a href="">Контакты</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">© 2020 Интернет-магазин детской одежды Kidsline. Все права защищены</div>
+</footer>
+<div class="modal_bg">
+    <div class="thx_for_sub_box">
+      <div class="close_button"><i class="fas fa-times"></i></div>
+        <div class="modal_content">
+            <img src="/img/icon/paper-plane.svg" alt=""/>
+            <span class="name">Спасибо! <br/> На вашу почту выслано письмо!</span>
+            <p class="text">Для подтверждения подписки перейдите <br/> по ссылке из письма</p>
+        </div>
+    </div>
+    <div class="review_form_box">
+      <div class="close_button"><i class="fas fa-times"></i></div>
+        <div class="modal_content">
+              <span class="title">Оставить отзыв</span>
+              <p class="text">Заполните форму ниже, чтобы оставить отзыв на данный продукт. Все поля обязательные для заполнения</p>
+              <form action="\">
+                  <label ><span class="line_title">Ваше имя</span><input type="text" class="required"/></label>
+                  <label ><span class="line_title">Текст отзыва</span><textarea name="" id="" class="required"></textarea></label>
+                  <div class="star_box">
+                      <span class="line_title">Дайте оценку товару</span>
+                      <label ><input type="radio" name="rate" value="1" checked/><span class="full_star"></span></label>
+                      <label ><input type="radio" name="rate" value="2" /><span class="without_star"></span></label>
+                      <label ><input type="radio" name="rate" value="3"/><span class="without_star"></span></label>
+                      <label ><input type="radio" name="rate" value="4"/><span class="without_star"></span></label>
+                      <label ><input type="radio" name="rate" value="5"/><span class="without_star"></span></label>
+                  </div>
+                  <input type="submit" value="Оставить отзыв"/>
+              </form>
+        </div>
+    </div>
+  </div>
+  </div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="js/price_range_script.js" type="text/javascript"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script src="https://kit.fontawesome.com/30b9fca398.js" crossorigin="anonymous"></script>
+</body> 
+</html>

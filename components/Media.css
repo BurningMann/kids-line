@@ -1,0 +1,11 @@
+﻿@media screen and (max-width: 1169px){
+	
+}
+@media screen and (max-width: 998px){
+	.main_catalog > .left_section{
+		width: 100%;
+	}
+	.right_section{
+		display: none;
+	}
+}

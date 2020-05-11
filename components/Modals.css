@@ -1,0 +1,190 @@
+﻿.modal_bg{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(250, 250, 250, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5000;
+  display: none;
+}
+.modal_bg > div{
+  display: none;
+}
+.thx_for_sub_box{
+  padding: 10px;
+  background: linear-gradient(0deg, #FFC21E, #FFC21E);
+  border-radius: 20px;
+  position: relative;
+}
+.thx_for_sub_box .modal_content{
+  border: 1px dashed #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 35px 30px 66px;
+}
+.thx_for_sub_box .modal_content .name{
+  font-size: 24px;
+  line-height: 26px;
+  margin: 18px 0 15px;
+}
+.thx_for_sub_box .modal_content .text{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 21px;
+}
+.close_button{
+  position: absolute;
+  right: -12.5px;
+  top: -12.5px;
+  z-index: 10;
+  background: #00CCBA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F3F3F3;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.review_form_box{
+  max-width: 450px;
+  text-align: center;
+  position: relative;
+  background: #871C90;
+  border-radius: 20px;
+  padding: 10px;
+}
+.review_form_box > .close_button:hover{
+  background: #FFC21E;
+}
+.review_form_box > .modal_content{
+  border: 1px dashed #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 32px 35px;
+}
+.review_form_box > .modal_content .title{
+  font-size: 24px;
+  color: #FFFFFF;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+.review_form_box > .modal_content .text{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.review_form_box > .modal_content > form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* align-items: center; */
+  text-align: left;
+}
+.review_form_box > .modal_content > form > label{
+width: 100%;
+display: block;
+}
+.review_form_box > .modal_content .line_title{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 19px;
+  color: #EDEDED;
+  width: 100%;
+  display: inline-block;
+  margin: 15px 0 5px;
+}
+.review_form_box > .modal_content > form > label > input{
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 10px;
+  height: 48px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  width: -webkit-fill-available;
+  display: inline-block;
+  border: 3px solid #871C90;
+  padding-left: 20px;
+}
+.review_form_box > .modal_content > form > label > input:invalid{
+  border: 3px solid #EC4848;
+  border-radius: 5px;
+}
+.review_form_box > .modal_content > form > label > textarea{
+  font-weight: 300;
+  font-size: 18px;
+  border-radius: 10px;
+  height: 200px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Ubuntu;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  width: -webkit-fill-available;
+  display: inline-block;
+  border: 3px solid #871C90;
+  resize: none;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.review_form_box > .modal_content > form > input[type="submit"]{
+  background: #00CCBA;
+  border-radius: 30px;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: none;
+  width: 100%;
+  padding: 15px 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.review_form_box > .modal_content > form > input[type="submit"]:hover{
+  background: #FFC21E;
+}
+.star_box > label > input{
+  display: none;
+}
+.error{
+  position: relative;
+}
+.error :before{
+content: "Обязательное \0a поле!";
+width: 157px;
+height: 70px;
+display: block;
+background: url(/img/icon/error_mesage_bg.svg);
+position: absolute;
+right: -160px;
+top: 0;
+color: #FFFFFF;
+font-weight: 300;
+font-size: 14px;
+line-height: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+white-space: pre;
+text-align:center;
+}
+.error .required{
+border: 3px solid #EC4848 !important;
+}

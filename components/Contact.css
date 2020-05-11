@@ -1,0 +1,107 @@
+﻿#map{
+position: relative;
+}
+#map .adress{
+  position: absolute;
+  background: url(/img/icon/adress_back.svg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: center;
+  width: 400px;
+  height: 108px;
+  top: -55px;
+  left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+color: #FFFFFF;
+text-align: center;
+}
+#map .adress:before{
+  content:"";
+  width: 48px;
+  height: 48px;
+  display: block;
+  position: absolute;
+  background: url(/img/icon/news_ico.svg);
+  top:-40px;
+  transform: scale(-1, 1);
+  z-index:5;
+}
+.contact_info_box{
+  width: 100%;
+  position: relative;
+  height: 220px;
+  text-align: center;
+}
+.contact_info_box .phone{
+  position: absolute;
+  left: 47%;
+  top: 30px;
+}
+.contact_info_box .phone .title{
+  background: url(/img/icon/rectangle_blue.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-size: 18px;
+}
+
+.contact_info_box .phone .title:before{
+    content:"";
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    background: url(/img/icon/green_bird.svg);
+    top:-27px;
+    right: 50px;
+    transform: scale(-1, 1);
+}
+.contact_info_box .phone a{
+  font-size: 28px;
+  color: #00CCBA;
+  margin-top: 20px;
+  display: inline-block;
+}
+.contact_info_box .work_time{
+  position: absolute;
+  right: 30px;
+  bottom: 25px;
+}
+.contact_info_box .work_time .title{
+  background: url(/img/icon/yellow_rectangle.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-size: 18px;
+}
+
+.contact_info_box .work_time .title:before{
+    content:"";
+    width: 35px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    background: url(/img/icon/yellow_bird.svg);
+    top:-34px;
+}
+.contact_info_box .work_time a{
+  font-size: 28px;
+  color: #FFC21E;
+  margin-top: 20px;
+  display: inline-block;
+}
