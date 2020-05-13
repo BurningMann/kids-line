@@ -106,7 +106,12 @@ class MainPage extends React.Component {
             </a>
         </div>
       </div>
-      <div class="main_baner"><img src="/img/main_baner.png"/></div>
+      <div class="main_baner">
+        <img src="/img/main_baner_bg.png"/>
+        <div class="material">Только безопасные материалы</div>
+        <div class="bonus">Выгодная бонусная программа</div>
+        <div class="style">Новые стильные коллекции</div>
+      </div>
       <div class="container">
         <div class="main_about_section">
           <div class="pic"><img alt="" src="/img/about_main.png"/></div>
